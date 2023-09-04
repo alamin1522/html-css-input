@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FROM</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+      }
+
+      .mainbox {
+        width: 350px;
+        height: 500px;
+        background: rgb(245, 214, 219);
+      }
+
+      .box {
+        width: 220px;
+        height: 40px;
+        margin: 15px auto;
+      }
+
+      .inp {
+        width: 200px;
+        height: 20px;
+        padding-left: 10px;
+      }
+
+      span {
+        font-size: 20px;
+      }
+
+      .check {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+      }
+
+      #btn {
+        width: 90px;
+        height: 30px;
+        margin-left: 40px;
+        cursor: pointer;
+        background: rgb(159, 233, 159);
+        border-radius: 10%;
+      }
+
+      #btn:hover {
+        background: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainbox">
+      <h1>Create your account</h1>
+
+      <div class="box">
+        <span>First Name</span>
+        <input type="text" class="inp" placeholder="First Name" />
+      </div>
+
+      <div class="box">
+        <span>Your email address</span>
+        <input type="email" class="inp" placeholder="Your email address" />
+      </div>
+
+      <div class="box">
+        <span>Password</span>
+        <input type="Password" class="inp" placeholder="Password" />
+      </div>
+
+      <div class="box">
+        <span>Confirm Password</span>
+        <input type="password" class="inp" placeholder="Confirm Password" />
+      </div>
+
+      <div class="box">
+        <input type="checkbox" class="check" />
+        <span>Remember me</span>
+      </div>
+
+      <div class="box box-btn">
+        <input type="submit" id="btn" />
+      </div>
+    </div>
+  </body>
+</html>
